@@ -1,13 +1,6 @@
-/**
- * 
- */
 
-/**
- * @author luisd
- *
- */
 public interface I_Calculadora {
-	public int Calcular(String vector);
-	public String ToString();
-	public String LeerArchivo(String direccion);
+	public int calcular(String vector);
+	public String toString();
+	public String leerArchivo(String direccion);
 }

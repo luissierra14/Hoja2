@@ -1,9 +1,8 @@
 
-public interface I_Stack <T>{
-	public void Push(T element);
-	public T Pop();
-	public boolean IsEmpty();
-	public int Size();
+public interface I_Stack<T> {
+	public void push(T element);
+	public T pop();
+	public boolean isEmpty();
+	public int size();
 	public T get();
-		
 }
